@@ -1,0 +1,422 @@
+@media (min-width: 0px) and (max-width: 567px) {
+  #header {
+    background-image: url(https://ustalar.az/uploads/news/16939894726682764f83a608fd11.jpg);
+    clip-path: polygon(0 1%, 100% 0%, 100% 62%, 0 86%);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 400px;
+  }
+  #header .img-box {
+    padding: 2rem 1rem;
+  }
+  #header .img-box img {
+    border: 5px solid green;
+    border-radius: 20px;
+  }
+  #header .text {
+    text-align: center;
+    padding: 7rem 1rem;
+  }
+  #header .text h1 {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-weight: 600;
+  }
+}
+@media (min-width: 768px) {
+  #header {
+    background-image: url(https://ustalar.az/uploads/news/16939894726682764f83a608fd11.jpg);
+    height: 76vh;
+    clip-path: polygon(0 1%, 100% 0%, 100% 62%, 0 86%);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  #header .img-box {
+    padding: 2rem 1rem;
+  }
+  #header .img-box img {
+    border: 5px solid green;
+    border-radius: 20px;
+    position: relative;
+    animation: myAni 1s infinite;
+  }
+  @keyframes myAni {
+    0% {
+      top: 0;
+      left: 0;
+    }
+    25% {
+      top: 0;
+      left: 30px;
+    }
+    50% {
+      top: 30px;
+      left: 30px;
+    }
+    100% {
+      top: 0;
+      left: 0;
+    }
+  }
+  #header .text {
+    text-align: center;
+    padding: 7rem 1rem;
+    position: relative;
+  }
+  #header .text:hover::before {
+    width: 38%;
+    height: 2px;
+  }
+  #header .text::before {
+    content: "";
+    position: absolute;
+    width: 0%;
+    height: 5px;
+    background-color: green;
+    top: 165px;
+    left: 238px;
+    transition: 1.3s;
+  }
+  #header .text h1 {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-weight: 600;
+  }
+}
+@media (min-width: 0px) and (max-width: 567px) {
+  #digital {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  }
+  #digital .contact {
+    position: relative;
+  }
+  #digital .contact h1 {
+    font-weight: 600;
+    font-size: 2rem;
+  }
+  #digital .contact::before {
+    position: absolute;
+    content: "";
+    width: 70%;
+    height: 2px;
+    background-color: green;
+    top: 45px;
+  }
+  #digital .vikipedia {
+    position: relative;
+  }
+  #digital .vikipedia h1 {
+    font-weight: 600;
+    font-size: 2rem;
+  }
+  #digital .vikipedia h1::after {
+    position: absolute;
+    content: "";
+    width: 50%;
+    height: 2px;
+    background-color: green;
+    top: 41px;
+    left: 3px;
+  }
+}
+@media (min-width: 768px) {
+  #digital {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  }
+  #digital .digital {
+    display: flex;
+  }
+  #digital .digital .contact {
+    position: relative;
+  }
+  #digital .digital .contact h1 {
+    font-weight: 600;
+    font-size: 2rem;
+  }
+  #digital .digital .contact::before {
+    position: absolute;
+    content: "";
+    width: 50%;
+    height: 2px;
+    background-color: green;
+    top: 45px;
+  }
+  #digital .digital .vikipedia {
+    position: relative;
+  }
+  #digital .digital .vikipedia h1 {
+    font-weight: 600;
+    font-size: 2rem;
+  }
+  #digital .digital .vikipedia h1::after {
+    position: absolute;
+    content: "";
+    width: 35%;
+    height: 2px;
+    background-color: green;
+    top: 41px;
+    left: 3px;
+  }
+}
+@media (min-width: 0px) and (max-width: 567px) {
+  #bio {
+    margin: 4rem 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  }
+  #bio .box {
+    position: relative;
+  }
+  #bio .box h1 {
+    font-weight: 600;
+    font-size: 2rem;
+  }
+  #bio .box::before {
+    position: absolute;
+    content: "";
+    width: 70%;
+    height: 2px;
+    background-color: green;
+    top: 43px;
+  }
+  #bio .education {
+    position: relative;
+  }
+  #bio .education h1 {
+    font-weight: 600;
+    font-size: 2rem;
+  }
+  #bio .education h1::after {
+    position: absolute;
+    content: "";
+    width: 35%;
+    height: 2px;
+    background-color: green;
+    top: 41px;
+    left: 3px;
+  }
+}
+@media (min-width: 768px) {
+  #bio {
+    margin: 4rem 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  }
+  #bio .bio {
+    display: flex;
+  }
+  #bio .box {
+    position: relative;
+  }
+  #bio .box h1 {
+    font-weight: 600;
+    font-size: 2rem;
+  }
+  #bio .box::before {
+    position: absolute;
+    content: "";
+    width: 50%;
+    height: 2px;
+    background-color: green;
+    top: 43px;
+  }
+  #bio .education {
+    position: relative;
+  }
+  #bio .education h1 {
+    font-weight: 600;
+    font-size: 2rem;
+  }
+  #bio .education h1::after {
+    position: absolute;
+    content: "";
+    width: 35%;
+    height: 2px;
+    background-color: green;
+    top: 41px;
+    left: 3px;
+  }
+}
+@media (min-width: 0px) and (max-width: 567px) {
+  #skill {
+    margin: 4rem 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  }
+  #skill .text {
+    position: relative;
+  }
+  #skill .text h1 {
+    font-weight: 600;
+    font-size: 2rem;
+  }
+  #skill .text::before {
+    position: absolute;
+    content: "";
+    width: 50%;
+    height: 2px;
+    background-color: green;
+    top: 43px;
+  }
+  #skill .text p::after {
+    position: absolute;
+    content: "";
+    width: 15%;
+    height: 5px;
+    background-color: green;
+    margin: 10px;
+  }
+  #skill .lang {
+    position: relative;
+  }
+  #skill .lang h1 {
+    font-weight: 600;
+    font-size: 2rem;
+  }
+  #skill .lang h1::after {
+    position: absolute;
+    content: "";
+    width: 35%;
+    height: 2px;
+    background-color: green;
+    top: 41px;
+    left: 3px;
+  }
+  #skill .lang p::after {
+    position: absolute;
+    content: "";
+    width: 15%;
+    height: 5px;
+    background-color: green;
+    margin: 10px;
+  }
+}
+@media (min-width: 768px) {
+  #skill {
+    margin: 4rem 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  }
+  #skill .skill {
+    display: flex;
+  }
+  #skill .skill .text {
+    position: relative;
+  }
+  #skill .skill .text h1 {
+    font-weight: 600;
+    font-size: 2rem;
+  }
+  #skill .skill .text::before {
+    position: absolute;
+    content: "";
+    width: 50%;
+    height: 2px;
+    background-color: green;
+    top: 43px;
+  }
+  #skill .skill .text p::after {
+    position: absolute;
+    content: "";
+    width: 15%;
+    height: 5px;
+    background-color: green;
+    margin: 10px 15px;
+  }
+  #skill .skill .lang {
+    position: relative;
+  }
+  #skill .skill .lang h1 {
+    font-weight: 600;
+    font-size: 2rem;
+  }
+  #skill .skill .lang h1::after {
+    position: absolute;
+    content: "";
+    width: 35%;
+    height: 2px;
+    background-color: green;
+    top: 41px;
+    left: 3px;
+  }
+  #skill .skill .lang p::after {
+    position: absolute;
+    content: "";
+    width: 15%;
+    height: 5px;
+    background-color: green;
+    margin: 10px 15px;
+  }
+}
+@media (min-width: 0px) and (max-width: 567px) {
+  #work {
+    margin: 4rem 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  }
+  #work .practic {
+    position: relative;
+  }
+  #work .practic h1 {
+    font-weight: 600;
+    font-size: 2rem;
+  }
+  #work .practic::before {
+    position: absolute;
+    content: "";
+    width: 50%;
+    height: 2px;
+    background-color: green;
+    top: 43px;
+  }
+  #work .hobbi {
+    position: relative;
+  }
+  #work .hobbi h1 {
+    font-weight: 600;
+    font-size: 2rem;
+  }
+  #work .hobbi::before {
+    position: absolute;
+    content: "";
+    width: 50%;
+    height: 2px;
+    background-color: green;
+    top: 43px;
+  }
+}
+@media (min-width: 768px) {
+  #work {
+    margin: 4rem 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  }
+  #work .work {
+    display: flex;
+  }
+  #work .work .practic {
+    position: relative;
+  }
+  #work .work .practic h1 {
+    font-weight: 600;
+    font-size: 2rem;
+  }
+  #work .work .practic::before {
+    position: absolute;
+    content: "";
+    width: 50%;
+    height: 2px;
+    background-color: green;
+    top: 43px;
+  }
+  #work .work .hobbi {
+    position: relative;
+  }
+  #work .work .hobbi h1 {
+    font-weight: 600;
+    font-size: 2rem;
+  }
+  #work .work .hobbi::before {
+    position: absolute;
+    content: "";
+    width: 50%;
+    height: 2px;
+    background-color: green;
+    top: 43px;
+  }
+}/*# sourceMappingURL=style.css.map */
